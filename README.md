@@ -37,7 +37,7 @@ To evaluate, dataset can be downloaded from [dreambooth](https://github.com/goog
 ## Result
 In this image, Dynamic model is a linear model.
 
-<img src="https://github.com/user-attachments/assets/20abecac-7898-4fa3-96de-5e8f71ad3c4c" width="332" height="158"/>
+<img src="https://github.com/user-attachments/assets/20abecac-7898-4fa3-96de-5e8f71ad3c4c" width="166" height="78"/>
 
 
 <img src="https://github.com/user-attachments/assets/e7375bab-d5a9-4659-934d-da95d899b165" width="350" height="566"/>
