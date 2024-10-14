@@ -1,0 +1,9 @@
+#!/bin/bash
+
+python clip_image_score.py \
+--global_input_image_path="$TARGET_DIR/dreambooth/dataset" \
+--global_output_image_path="$TARGET_DIR/inference_output/sd_v15" \
+--batch=25 \
+--device="cuda:0" \
+--clip_model="ViT-L/14" \
+--json_file="$TARGET_DIR/evaluation/sd_v15/clip_image_score_vitl14.json"

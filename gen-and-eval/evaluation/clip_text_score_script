@@ -1,0 +1,8 @@
+#!/bin/bash
+TARGET_DIR="$HOME/workspace/IP-Adapter/ip-adapter-kcs/gen-and-eval"
+
+python clip_text_score.py \
+--global_image_path="$TARGET_DIR/inference_output/sd_v15" \
+--device="cuda:1" \
+--clip_model="ViT-L/14" \
+--json_file="$TARGET_DIR/evaluation/sd_v15/clip_text_score_vitl14.json"

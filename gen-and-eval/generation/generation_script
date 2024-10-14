@@ -1,0 +1,11 @@
+python generation.py \
+--base_model_path="runwayml/stable-diffusion-v1-5" \
+--image_encoder_path="../../../models/image_encoder/" \
+--ip_ckpt="../../../models/ip-adapter_sd15.bin" \
+--device="cuda:0" \
+--dataset_path="../dreambooth/dataset/" \
+--num_samples=4 \
+--seed=42 \
+--model=0 \
+--output_dir="../inference_output/sd_v15" \
+--store_config
