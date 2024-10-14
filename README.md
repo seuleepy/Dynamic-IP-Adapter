@@ -31,4 +31,4 @@ bash ./gen-and-eval/evaluation/clip_image_score_script
 ```
 To evaluate, dataset can be downloaded from [dreambooth](https://github.com/google/dreambooth).
 
-
+![baseline_ti_comparison](https://github.com/user-attachments/assets/e7375bab-d5a9-4659-934d-da95d899b165)
